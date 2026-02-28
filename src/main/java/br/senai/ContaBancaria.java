@@ -2,7 +2,7 @@ package br.senai;
 
 public class ContaBancaria {
     private double saldo;
-
+    
     public void deposita(double valor){
         if(valor <= 0) {
             throw new IllegalArgumentException("Valor depositado não pode ser zero ou negativo.");
