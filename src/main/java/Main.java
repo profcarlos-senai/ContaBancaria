@@ -49,7 +49,7 @@ public class Main {
     }
 
     public static void consultarSaldo(ContaBancaria conta) {
-        IO.println(String.format("Saldo atual: R$ %.2f%n", conta.getSaldo()));
+        IO.printf("\nSaldo atual: R$ %.2f", conta.getSaldo());
     }
 
     public static double lerValor(String mensagem) {
